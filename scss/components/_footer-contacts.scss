@@ -1,0 +1,25 @@
+.footer-contacts {
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 231px;
+    height: 81px;
+    margin-bottom: 0;
+    // margin-right: 165px;
+  }
+}
+.address-link {
+  display: block;
+  @include font(14px, 400, 1.71, 0.03em);
+  font-style: normal;
+  color: var(--primary-title-color);
+  margin-bottom: 9px;
+}
+.mail-footer,
+.tel-footer {
+  display: block;
+  margin-bottom: 9px;
+  @include font(14px, 400, 1.71, 0.03em);
+  color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,15 @@
+.header__logo {
+  display: flex;
+  margin-right: 93px;
+  font-family: Raleway, sans-serif;
+  @include font(26px, 700, 1.19, 0.03em);
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.header__logo-web {
+  font-family: Raleway, sans-serif;
+  @include font(26px, 700, 1.19, 0.03em);
+  color: var(--secondary-accent-color);
+  text-decoration: none;
+}

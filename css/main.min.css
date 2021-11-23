@@ -813,42 +813,42 @@ img {
   }
 }
 @media screen and (max-width: 479px) {
-  .header-footer-contacts_list__list {
+  .header-contacts__list {
     display: none;
   }
 }
 @media screen and (min-width: 480px) {
-  .header-footer-contacts_list__list {
+  .header-contacts__list {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .header-footer-contacts_list__list {
+  .header-contacts__list {
     display: block;
     margin-left: auto;
   }
 }
 @media screen and (min-width: 1200px) {
-  .header-footer-contacts_list__list {
+  .header-contacts__list {
     display: flex;
     margin-left: auto;
   }
 }
-.header-footer-contacts_list__item-mail {
+.header-contacts__list__item-mail {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-footer-contacts_list__item-mail:hover {
+.header-contacts__list__item-mail:hover {
   color: var(--secondary-accent-color);
 }
-.header-footer-contacts_list__item-mail:focus {
+.header-contacts__list__item-mail:focus {
   color: var(--secondary-accent-color);
 }
 @media screen and (min-width: 768px) {
-  .header-footer-contacts_list__item-mail {
+  .header-contacts__list__item-mail {
     margin-bottom: 10px;
     font-size: 12px;
     font-weight: 500;
@@ -857,7 +857,7 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  .header-footer-contacts_list__item-mail {
+  .header-contacts__list__item-mail {
     margin-bottom: 0px;
     margin-right: 30px;
     font-size: 14px;
@@ -891,21 +891,21 @@ img {
     height: 12px;
   }
 }
-.header-footer-contacts_list__item-tel {
+.header-contacts__list__item-tel {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-footer-contacts_list__item-tel:hover {
+.header-contacts__list__item-tel:hover {
   color: var(--secondary-accent-color);
 }
-.header-footer-contacts_list__item-tel:focus {
+.header-contacts__list__item-tel:focus {
   color: var(--secondary-accent-color);
 }
 @media screen and (min-width: 768px) {
-  .header-footer-contacts_list__item-tel {
+  .header-contacts__list__item-tel {
     font-size: 12px;
     font-weight: 500;
     line-height: 1.17;
@@ -913,7 +913,7 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
-  .header-footer-contacts_list__item-tel {
+  .header-contacts__list__item-tel {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;

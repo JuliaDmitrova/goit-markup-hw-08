@@ -1,4 +1,7 @@
 .footer-contacts {
+  @media screen and (max-width: 479px) {
+    margin-bottom: 30px;
+  }
   @media screen and (min-width: 480px) {
     margin-bottom: 60px;
   }

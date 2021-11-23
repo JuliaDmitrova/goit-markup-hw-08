@@ -7,15 +7,15 @@
   text-align: center;
   color: var(--primary-text-color);
 }
-.modal-form-field-wrap {
+.modal-form__field-wrap {
   position: relative;
   display: block;
 }
-.modal-form-field {
+.modal-form__field {
   @include font(12px, 400, 1.17, 0.01em);
   color: var(--secondary-text-color);
 }
-.modal-form-input {
+.modal-form__input {
   display: block;
   width: 100%;
   height: 40px;
@@ -28,11 +28,11 @@
     outline: none;
   }
 }
-.icon-modal-form {
+.modal-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
-  .modal-form-input:focus + & {
+  .modal-form__input:focus + & {
     fill: var(--secondary-accent-color);
     outline: none;
   }
@@ -54,7 +54,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
 }
-.modal-checkbox {
+.modal__checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,14 +76,18 @@
   }
 }
 .check-box {
-  @media screen and(max-width: 1199px) {
+  @media screen and(max-width: 479px) {
+    flex-wrap: wrap;
+    @include font(10px, 300, 1.14, 0.02em);
+  }
+  @media screen and(min-width: 480px) {
     @include font(12px, 400, 1.17, 0.03em);
   }
   @media screen and(min-width: 1200px) {
     @include font(14px, 400, 1.71, 0.03em);
   }
 }
-.modal-check:checked + .check-box::before {
+.modal__checkbox-input:checked + .check-box::before {
   background: {
     image: url("../images/icon-check.svg");
     size: contain;
@@ -91,7 +95,7 @@
     origin: border-box;
   }
 }
-.modal-check:focus + .check-box::before {
+.modal__checkbox-input:focus + .check-box::before {
   outline: 1px solid var(--primary-text-color);
 }
 .policy-anchor {
@@ -99,7 +103,10 @@
   @include font(14px, 400px, 1.71, 0.03em);
   text-decoration-line: underline;
   color: var(--secondary-accent-color);
-  @media screen and(max-width: 1199px) {
+  @media screen and(max-width: 479px) {
+    @include font(10px, 300, 1.14, 0.02em);
+  }
+  @media screen and(min-width: 480px) {
     @include font(12px, 400, 1.17, 0.03em);
   }
   @media screen and(min-width: 1200px) {
@@ -107,7 +114,7 @@
   }
 }
 
-.checkbox-btn {
+.checkbox__btn {
   display: block;
   margin: 0 auto;
   width: 200px;

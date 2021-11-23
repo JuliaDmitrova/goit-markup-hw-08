@@ -64,7 +64,7 @@
   }
 }
 
-.header-contacts__list {
+.header-footer-contacts_list__list {
   @media screen and (max-width: 479px) {
     display: none;
   }
@@ -80,7 +80,7 @@
     margin-left: auto;
   }
 }
-.header-contacts__item-mail {
+.header-footer-contacts_list__item-mail {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);
@@ -124,7 +124,7 @@
   }
 }
 
-.header-contacts__item-tel {
+.header-footer-contacts_list__item-tel {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);

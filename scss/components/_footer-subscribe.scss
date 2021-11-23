@@ -1,16 +1,16 @@
-.footer-subscribe {
+.footer__subscribe {
   @media screen and (min-width: 1200px) {
     margin-left: 93px;
   }
 }
-.subscribe-form {
+.footer__subscribe-form {
   @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
-.subscribe-input {
+.footer__subscribe-input {
   padding: 15px 0 15px 16px;
   width: 100%;
   height: 50px;
@@ -33,7 +33,7 @@
     margin-bottom: 0;
   }
 }
-.subscribe-submit-btn {
+.subscribe-btn {
   width: 200px;
   height: 50px;
   background: var(--secondary-accent-color);
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 }
-.subscribe-icon-submit-btn {
+.subscribe-btn-icon {
   margin-left: 10px;
   @media screen and (min-width: 480px) {
     display: inline-block;

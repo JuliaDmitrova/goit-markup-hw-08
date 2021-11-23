@@ -65,22 +65,22 @@
     color: var(--secondary-accent-color);
   }
 }
-.mobile-menu__contacts_list {
+.mobile-menu__footer-contacts_list_list {
   margin-bottom: 64px;
 }
-.mobile-menu__contacts_item {
+.mobile-menu__footer-contacts_list_item {
   &:not(:last-child) {
     margin-bottom: 32px;
   }
 }
-.mobile-menu__contacts-tel {
+.mobile-menu__footer-contacts_list-tel {
   @include font(34px, 500, 1.17, 0.02em);
   color: var(--secondary-accent-color);
   @media screen and (max-width: 479px) {
     @include font(20px, 500, 1.17, 0.02em);
   }
 }
-.mobile-menu__contacts-mail {
+.mobile-menu__footer-contacts_list-mail {
   @include font(24px, 500, 1.17, 0.02em);
   color: var(--secondary-text-color);
 }

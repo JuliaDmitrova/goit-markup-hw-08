@@ -1,4 +1,4 @@
-.footer-contacts {
+.footer-contacts_list {
   @media screen and (max-width: 479px) {
     margin-bottom: 30px;
   }
@@ -19,8 +19,8 @@
   color: var(--primary-title-color);
   margin-bottom: 9px;
 }
-.mail-footer,
-.tel-footer {
+.footer-mail,
+.footer-tel {
   display: block;
   margin-bottom: 9px;
   @include font(14px, 400, 1.71, 0.03em);

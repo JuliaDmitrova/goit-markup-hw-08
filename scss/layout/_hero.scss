@@ -6,7 +6,7 @@
     padding-bottom: 200px;
   }
 }
-.hero-bg {
+.section-hero__bg {
   max-width: 480px;
   height: 400px;
   margin-left: auto;
@@ -53,7 +53,7 @@
   }
 }
 
-.hero-title {
+.section-hero__title {
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-title-color);
@@ -73,7 +73,7 @@
   }
 }
 
-.hero-btn {
+.section-hero__btn {
   display: block;
   margin: 0 auto;
   @include font(16px, 700, 1.87, 0.06em);

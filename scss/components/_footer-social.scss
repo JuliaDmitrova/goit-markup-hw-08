@@ -17,14 +17,14 @@
   justify-content: center;
   align-items: center;
 }
-.footer-social-item {
+.footer-social__item {
   display: flex;
   width: 44px;
   height: 44px;
   margin-right: 10px;
   fill: 10%;
 }
-.footer-social-link {
+.footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@
     margin-right: 10px;
   }
 }
-.footer-social-icon {
+.footer-social__icon {
   fill: var(--secondary-bg-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

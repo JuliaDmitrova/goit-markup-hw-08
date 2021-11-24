@@ -223,7 +223,7 @@ img {
 .mobile-menu__link:focus {
   color: var(--secondary-accent-color);
 }
-.mobile-menu__footer-contacts_list_list {
+.mobile-menu__footer-contacts_list {
   margin-bottom: 64px;
 }
 .mobile-menu__footer-contacts_list_item:not(:last-child) {
